@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(255, 145, 0);
+}
+
+
+.box{
+position: absolute;
+    width: 400px;
+    height: 100px;
+    border-radius: 30x;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.719);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+h5{
+    text-align: center;
+}
+.buton{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+button{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+#box1{
+    
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    
+}
